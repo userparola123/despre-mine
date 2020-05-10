@@ -1,0 +1,74 @@
+/*
+.profile-card{
+    background-color: hsla(60, 100%, 50%, .4);
+    }
+.head,.content{
+    background-color: hsla(120, 100%, 50%, .4);}
+.profile-image,.name-headline,.about,.links {
+    background-color: hsla(300, 100%, 50%, .4);
+}
+÷/
+/* Resetare CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/* Poziționarea */
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('assets/background%20image.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+.content {
+  padding: 5% 10%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+.head, .about {
+  margin-bottom: 10%;
+}
+/* Profile image */
+.profile-image {
+  margin-top: -60px;
+}
+img {
+  width: 180px;
+  height: 180px;
+  border-radius: 20%;
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+ /* filter: grayscale(50%);*/
+}
+/* Linkurile de contact */
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+.profile-card {
+  background-color: hsla(0, 50%, 100%, .1);
+  border-radius: 20%;;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
